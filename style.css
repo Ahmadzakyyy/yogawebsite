@@ -1,0 +1,223 @@
+.law-logo {
+    width: 120px;
+    height: 120px;
+    z-index: 10;
+    /*float: left; */
+    /* this doesn't work with position:fixed */
+    left: 20px;
+    /* use top and left to position the logo */
+    position: fixed;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.sign-up-page {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.sign-up-form {
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
+
+#surveyform {
+    width: 900px;
+    margin: 0 auto;
+    color: black;
+    height: 450px;
+}
+
+.row-tab {
+    display: block;
+}
+
+.label-bariis {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.input-bariis {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.row-tab {
+    display: block;
+    padding-top: 20px;
+}
+
+.select-label {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.select-input {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.label-radio {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-radio {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.input-checkbox {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-checkbox {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.button {
+    padding: 20px;
+}
+
+.text-area {
+    width: 200px;
+    height: 100px;
+}
+
+.about-us {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.image1,
+.image2,
+.image3 {
+    z-index: -10;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}

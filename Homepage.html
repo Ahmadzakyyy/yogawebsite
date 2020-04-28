@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better call saul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js.js">
+    <script src="js.js"></script>
+    <img class="law-logo" src="HYSlogo.png" alt="">
+    <nav>
+        <ul>
+            <li><a class="active" href="Homepage.html">Home </a></li>
+            <li><a href="pilates.html">Yoga and Pilate</a></li>
+            <li><a href="stress.html">Stress and meditation  </a></li>
+            <li><a href="registration.html">Class Registartion  </a></li>
+            <li><a href="About-us.html">About Us </a></li>
+        </ul>
+    </nav>
+</head>
+<div class="sign-up-page">
+    <form class="sign-up-form" action=" https://www.freecodecamp.com/email-submit">
+        <h1>Welcome to Harrow Yoga Studio Website</h1>
+        <h3>Harrow Yoga Studio makes sure their clients are always happy with their services</h3>
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    margin: 0;
+                    font-family: Arial;
+                }
+                /* The grid: Four equal columns that floats next to each other */
+                
+                .column {
+                    float: left;
+                    width: 25%;
+                    padding: 10px;
+                }
+                /* Style the images inside the grid */
+                
+                .column img {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+                
+                .column img:hover {
+                    opacity: 1;
+                }
+                /* Clear floats after the columns */
+                
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                /* The expanding image container */
+                
+                .container {
+                    position: relative;
+                    display: none;
+                }
+                /* Expanding image text */
+                
+                #imgtext {
+                    position: absolute;
+                    bottom: 15px;
+                    left: 15px;
+                    color: white;
+                    font-size: 20px;
+                }
+                /* Closable button inside the expanded image */
+                
+                .closebtn {
+                    position: absolute;
+                    top: 10px;
+                    right: 15px;
+                    color: white;
+                    font-size: 35px;
+                    cursor: pointer;
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <div style="text-align:center">
+                <h2>HYS Class Gallery</h2>
+
+            </div>
+
+            <!-- The four columns -->
+            <div class="row">
+                <div class="column">
+                    <img src="https://www.verywellfit.com/thmb/HwqjgJJN8N6-E03bdTmNxtX_Cd0=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/78317902-56b35e393df78cdfa004c51f.JPG" alt="Nature" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="https://d2joqs9jfh6k92.cloudfront.net/wp-content/uploads/2018/05/15171654/life-centre-yoga.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="https://risinglotusyoga.ca/wp-content/uploads/2017/09/yoga-tips.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczMjg1ODU4NzQ5/meditation-woods.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                </div>
+            </div>
+
+            <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+            </div>
+
+            <script>
+                function myFunction(imgs) {
+                    var expandImg = document.getElementById("expandedImg");
+                    var imgText = document.getElementById("imgtext");
+                    expandImg.src = imgs.src;
+                    imgText.innerHTML = imgs.alt;
+                    expandImg.parentElement.style.display = "block";
+                }
+            </script>
+
+        </body>
+
+        </html>
+
+</div>
+</form>
+</div>
+<div class="video-page">
+    <div class="video">
+
+    </div>
+</div>
+<div class="criminal-justice" id="criminal-justice">
+</div>
+
+<body>
+
+</body>
+
+</html>
